@@ -4,7 +4,7 @@
 		<link href="http://fonts.googleapis.com/css?family=Henny+Penny" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 	
-		<title>Event Development Change</title>
+		<title>Marj change</title>
 	</head>
 	<body>
 		<div class="wrap">
