@@ -4,7 +4,7 @@
 		<link href="http://fonts.googleapis.com/css?family=Henny+Penny" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 	
-		<title>Event Goddess</title>
+		<title>Event Goddess si Claire</title>
 	</head>
 	<body>
 		<div class="wrap">
