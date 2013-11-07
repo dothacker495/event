@@ -1,0 +1,321 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+
+a{
+	color: #afe9dd;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+body{
+	background-color: #5a2ca0;
+	cursor: default;
+	color: #eee;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+	padding: 5px;
+	cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6, label{
+	font-family: 'Henny Penny', cursive;
+}
+
+input[type=text], input[type=password], textarea{
+	font-family: Verdana, Geneva, sans-serif;
+	border: none;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+}
+
+input[type=text]:focus, input[type=password]:focus, textarea:focus{
+	box-shadow: 0 0 5px #f3892b;
+}
+
+label{
+	color: #5a2ca0;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+li{
+	line-height: 20px;
+}
+
+ol, ul{
+	margin: 0 0 0 30px;
+}
+
+p{
+	text-align: justify;
+	line-height: 20px;
+}
+
+select{
+	padding: 5px;
+}
+
+table, tr, td{
+	border-collapse: collapse;
+}
+
+td{
+	vertical-align: top;
+}
+
+.wrap, .header-wrap, .header, .content-wrap, .content, .footer-wrap, .footer{
+	position: relative;
+	overflow: hidden;
+}
+
+.header-wrap{
+	background-color: #5a2ca0;
+}
+
+.container-content{
+	background-color: #fff;
+}
+
+.header, .content, .footer{
+	width: 940px;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.logo{
+	height: 120px;
+	width: 250px;
+	margin: 40px auto 0;
+}
+
+.browse-logo{
+	float: left;
+	width: 284px;
+	height: 63px;
+}
+
+.regForm label{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.regForm table{
+	margin: 0 auto;
+}
+
+.regForm table tr td{
+	padding: 10px;
+}
+
+.regForm table tr td p{
+	padding: 5px 0;
+	margin: 15px 0 0;
+}
+
+.regForm .check{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.user-panel{
+	position: absolute;
+}
+
+.login-panel{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+.login-panel p{
+	text-align: right;
+}
+
+.login-panel img{
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+.search p{
+	text-align: center;
+}
+
+.search form input{
+	width: 300px;
+	font-size: 16px;
+	font-weight: bold;
+	height: 30px;
+}
+
+.search p form button{
+	height: 30px;
+	font-size: 14px;
+}
+
+.search form{
+	width: 370px;
+	margin: 0 auto;
+}
+
+.main-content{
+	padding: 0 50px 30px;
+	background-color: #eee;
+	border: 1px solid #fff;
+	margin: 40px 0 0;
+	border-radius: 5px;
+	color: #333;
+}
+
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6{
+	color: #5a2ca0;
+	margin: 30px 0 0;
+}
+
+.main-content p{
+	color: #333;
+}
+
+.footer p{
+	text-align: center;
+}
+
+.container{
+	overflow: hidden;
+	padding: 40px 20px;
+}
+
+.container h1, .container h2, .container h3, .container h4, .container h5, .container h6{
+	color: #5a2ca0;
+}
+
+.left{
+	width: 200px;
+	border-right: 1px solid #5a2ca0;
+	color: #333;
+	margin: 0 40px 0 0;
+}
+
+.left ul{
+	list-style: none;
+}
+
+.left ul li{
+	margin: 20px 0;
+}
+
+.left ul li a{
+	color: #006a7c;
+	font-weight: bold;
+}
+
+.right span{
+	font-size: 14px;
+	color: #5a2ca0;
+}
+
+.right span em{
+	font-weight: bold;
+}
+
+.provider-info{
+	overflow: hidden;
+	margin: 10px 0;
+	width: 600px;
+	padding: 10px;
+	background-color: #eee;
+	box-shadow: 0 0 5px #999;
+	border-radius: 5px;
+}
+
+.float-l{
+	float: left;
+}
+
+.provider-info .img{
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+	border: 5px solid #ccc;
+	margin: 0 10px 0 0;
+	overflow: hidden;
+}
+
+.provider-info .name{
+	float: left;
+	width: 300px;
+	margin: 0 10px 0 0;
+}
+
+.provider-info .name h2{
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.provider-info .name span{
+	color: #333;
+}
+
+.provider-info .info{
+	float: right;
+	width: 200px;
+}
+
+.provider-info .info p, .provider-info .info p strong{
+	color: #333;
+}
+
+.col{
+	float: left;
+}
+
+#wrapper h1{
+	font-family: sans, sans-serif, verdana;
+	color: #5a2ca0;
+	font-size: 20px;
+}
+	
+#wrapper h2{
+	padding-top: 10px;
+	font-family: Henny Penny;
+	font-size: 42px;
+	color: #1a1a1a;
+}
+	
+#wrapper h3{
+	font-family: sans, sans-serif, verdana;
+	color: #1a1a1a;
+}
+	
+#wrapper p{
+	padding: 8px 0;
+	font-family: sans, sans-serif, verdana;
+	font-size: 15px;
+	color: #1a1a1a;
+}
+
+#btnWiz{
+	margin: 20px 0 0;
+}
+
+#min, #max{
+	width: 85px;
+}
+
+.regForm table tr td span{
+	color: #333;
+	font-size: 12px;
+}
+
+.regForm .last{
+	margin: -10px 0 0;
+}

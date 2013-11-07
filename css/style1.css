@@ -1,0 +1,197 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+
+a{
+	color: #afe9dd;
+	text-decoration: none;
+	font-weight: bold;
+}
+label{
+	color: #5a2ca0;
+	cursor: pointer;
+	font-size: 18px;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+body{
+	background-color: #5a2ca0;
+	cursor: default;
+	color: #eee;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.send{
+	float:left;
+	margin: 5px 100px 0 0;
+}
+
+button{
+	
+	cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6, label{
+	font-family: 'Henny Penny', cursive;
+}
+
+input[type=text], input[type=password], textarea{
+	font-family: Verdana, Geneva, sans-serif;
+	border: none;
+	padding: 5px;
+	border-radius: 3px;
+}
+
+input[type=text]:focus, input[type=password]:focus, textarea:focus{
+	box-shadow: 0 0 5px #f3892b;
+}
+
+label{
+	cursor: pointer;
+	font-size: 18px;
+}
+
+p{
+	text-align: justify;
+	line-height: 20px;
+}
+
+select{
+	padding: 5px;
+}
+
+table, tr, td{
+	border-collapse: collapse;
+}
+
+td{
+	vertical-align: top;
+}
+#wrap{
+	margin:5px 0 0 0;
+
+}
+.wrap, .header-wrap, .header, .content-wrap, .content, .footer-wrap, .footer{
+	position: relative;
+	overflow: hidden;
+}
+
+.sub-content{
+	margin: 110px 0 0 0;
+}
+
+
+.sub-content label{
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.backto{
+	color:#000099;
+	font-size:12px;
+}
+
+.header, .content, .footer{
+	width: 850px;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.logo{
+	height: 120px;
+	width: 250px;
+	margin: 0 auto;
+}
+
+.footer p{
+	text-align: center;
+}
+
+.regForm{
+	margin: 0 0 0 40 px;
+}
+.regForm table{
+	
+	margin: 0 auto;
+}
+.main-content{
+	padding: 30px 50px 50px;
+	background-color: #eee;
+	border: 1px solid #fff;
+	margin: 20px 0 0 0;
+	border-radius: 5px;
+	color: #333;
+	min-height: 300px;
+}
+
+.In a{
+	color:#000066
+}
+.regForm table tr td{
+	padding: 5px;
+	color: #5a2ca0;
+	font-size: 18px;
+}
+
+.regForm table tr td p{
+	padding: 5px 0;
+}
+
+.regForm .check{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.In{
+	font-family:Henny Penny, cursive;
+	font-size: 16;
+	margin: 0 0 10px 0;
+}
+
+.In input{
+	font-family:Arial, Helvetica, sans-serif;
+	margin: 5px 5px 0 5px;
+	
+}
+.user-panel{
+	position: absolute;
+}
+
+.login-panel{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#form1 p{
+	margin: 15px 0 0;
+}
+
+#form1 label{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+#form1 table tr td{
+	font-size: 16px;
+}
+
+#form1 input[type=text]{
+	margin: 5px 0 0;
+}
+
+#min, #max{
+	width: 85px;
+}
+
+.main-content h1{
+	color: #5a2ca0;
+}
+
+.send{
+	margin: 0 0 20px;
+}
